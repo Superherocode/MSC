@@ -1,5 +1,5 @@
 
-# 🚀 MSC Website – Mentoring For Success
+# 🚀 MSC Website – Mekong Skill Center
 
 Trang web chính thức của dự án **"Mentoring For Success"**, được thiết kế & phát triển bằng **ReactJS + Vite**, giao diện hiện đại, tối ưu cho các tổ chức giáo dục, mentoring, coaching hoặc doanh nghiệp tư vấn chiến lược.
 
