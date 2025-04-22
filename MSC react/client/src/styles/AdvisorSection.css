@@ -1,0 +1,76 @@
+.advisor-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.advisor-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 20px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.advisor-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+.advisor-img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%; /* Làm tròn hình */
+  margin-bottom: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.advisor-title {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 4px;
+}
+
+.advisor-name {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 12px;
+}
+
+.advisor-info {
+  list-style: none;
+  padding: 0;
+  font-size: 0.95rem;
+  color: #555;
+  text-align: left;
+}
+
+.advisor-info li {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: start;
+  gap: 6px;
+  line-height: 1.5;
+}
+
+.advisor-info a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.advisor-info a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .advisor-card {
+    width: 100%;
+    max-width: 90%;
+  }
+}

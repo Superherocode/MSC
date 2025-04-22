@@ -1,0 +1,48 @@
+/* Reset nhẹ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Toàn bộ ứng dụng */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* Đảm bảo chiều cao min cho mỗi trang */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Padding cho nội dung (nếu có) */
+.main-content {
+  padding: 40px;
+}
+
+/* Responsive helper nếu cần */
+@media (max-width: 768px) {
+  .main-content {
+    padding: 20px;
+  }
+}
